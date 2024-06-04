@@ -1,0 +1,23 @@
+blob_storage_path: '/Users/blackjacker/code/unipopcorn/unipop_cornbot/blob_storage
+media_files_db: 'media_files.db'
+demo_videos:
+    - 'files/rhino_stack2.mp4'
+    - 'files/boat_stack2.mp4'
+    - 'files/roll_stack2.mp4'
+
+logo_example: 'logo_example'
+
+statuses_dict:
+    ready: 'ready'
+    need_process: 'need_process'
+    bad_request: 'Bad_request'
+
+video_processor_manager_kwargs:
+    processers_idxs:
+        - 0
+    inter_task_wait: 10
+
+video_editor_manager_kwargs:
+    editors_idxs:
+        - 0
+    inter_task_wait: 10
